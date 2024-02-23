@@ -1,4 +1,4 @@
-![image](https://github.com/ClearbridgeMobile/react-coding-challenge/assets/83609056/a22c0c1f-f438-4c24-b052-0f42ae2fc5b3)# react-coding-challenge
+# react-coding-challenge
 # Delivery React Coding Challenge
 
 ## 1. Goal
@@ -18,12 +18,12 @@ When you are finished please submit a pull request.
 ## 3. Basic Requirements
 
 - Create a single page react application using responsive design.
-- The application should use the [following](https://api.artic.edu/api/v1/artworks) API to retrieve a set of artworks
+- The application should use the [following](https://api.artic.edu/docs/#quick-start) API to retrieve a set of artworks
 - The artworks should be listed 10/page with pagination
 -	Each item title and thumbnail should be clickable
 -	Display details about the item on a separate page and have a back button to return to the list page and display the page the user was on
 -	List the following items on the detail page: _title,artist_display,date_display,main_reference_number, thubnail, dimensions_
--	Implement search (by title and description) and filtering by category
+-	Implement search and filtering by category
 -	Document your design decisions
 -	You can create components from scratch or you can use a component library but the more code you write yourself, the better
 - Create a comments form and demonstrate using data validation
