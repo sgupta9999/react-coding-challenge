@@ -17,7 +17,7 @@ When you are finished please submit a pull request.
 
 ## 3. Basic Requirements
 
-- Create a single page react application using responsive design (the application should render properly on a desktop or mobile device).
+- Create a single page react application using responsive design (the application should render properly on a desktop and mobile device).
 - The application should use the [following](https://api.artic.edu/docs/#quick-start) API to retrieve a set of artwork
 - The artworks should be listed 10/page with pagination
 - Each item title and thumbnail should be clickable to bring up the artwork detail page
