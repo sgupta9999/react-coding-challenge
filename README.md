@@ -3,7 +3,7 @@
 
 ## 1. Goal
 
-Your goal is to build a react app that displays a list of books. We will provide guidelines and feature requests below, but ultimately the design and functionality of your app is up to you. Keep in mind functionality and code quality is more important than asthetic design.
+Your goal is to build a react app that displays a list of artwork. We will provide guidelines and feature requests below, but ultimately the design and functionality of your app is up to you. Keep in mind functionality and code quality is more important than asthetic design.
 
 ## 2. Instructions
 
@@ -17,24 +17,23 @@ When you are finished please submit a pull request.
 
 ## 3. Basic Requirements
 
-- Create a single page react application using responsive design.
-- The application should use the [following](https://api.artic.edu/docs/#quick-start) API to retrieve a set of artworks
+- Create a single page react application using responsive design (the application should render properly on a desktop or mobile device).
+- The application should use the [following](https://api.artic.edu/docs/#quick-start) API to retrieve a set of artwork
 - The artworks should be listed 10/page with pagination
--	Each item title and thumbnail should be clickable
--	Display details about the item on a separate page and have a back button to return to the list page and display the page the user was on
--	List the following items on the detail page: _title,artist_display,date_display,main_reference_number, thubnail, dimensions_
--	Implement search and filtering by category
--	Document your design decisions
--	You can create components from scratch or you can use a component library but the more code you write yourself, the better
-- Create a comments form and demonstrate using data validation
-
+- Each item title and thumbnail should be clickable to bring up the artwork detail page
+- Display details about the item on a separate page and have a back button to return to the list page and display the page the user was on
+- List the following items on the detail page: _title,artist_display,date_display,main_reference_number, thubnail, dimensions_
+- Implement the ability to search the artwork by title and the ability to filter the results by category
+- Document your design decisions
+- You can create components from scratch or you can use a component library but the more code you write yourself, the better
+- Create a comments form to demonstrate data validation, the form does not need to make an API call to persist the data.
 - using TypeScript is a bonus but not required
-
 
 ## Evaluation Criteria
 
 - Understanding of core Javascript concepts
-- Understanding of React library
+- Optimized and performant code
+- Understanding of the React library
 - Code and component reuse/extensibility
 - Code design
 - Ability to write clear documentation
